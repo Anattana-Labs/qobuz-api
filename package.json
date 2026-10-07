@@ -1,0 +1,27 @@
+{
+  "name": "flac-server",
+  "version": "1.0.0",
+  "description": "YouTube Music Video ID -> Qobuz Lossless Audio Stream Matcher (Node.js HTTP server)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anattana-Labs/qobuz-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anattana-Labs/qobuz-api/issues"
+  },
+  "homepage": "https://github.com/Anattana-Labs/qobuz-api#readme",
+  "author": "Shashwat",
+  "license": "MIT",
+  "type": "module"
+}
