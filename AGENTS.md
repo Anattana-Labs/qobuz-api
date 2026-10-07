@@ -9,7 +9,7 @@
 
 ## 1. Persona & Context
 
-When working on this repository, you are collaborating on a performance-critical audio resolution microservice maintained by **Shashwat**. This service maps YouTube Music tracks to Qobuz lossless audio streams for bot and audio streaming clients.
+When working on this repository, you are collaborating on a performance-critical audio resolution microservice maintained by **Shashwat**. This service maps YouTube Music tracks to Qobuz lossless audio streams for the Muzo App.
 
 ---
 

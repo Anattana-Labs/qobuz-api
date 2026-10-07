@@ -5,11 +5,19 @@
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org/)
 [![Author](https://img.shields.io/badge/Author-Shashwat-orange.svg)](https://github.com/Anattana-Labs/qobuz-api)
 
-High-performance Node.js microservice that maps YouTube Music Video IDs and URLs to exact lossless and Hi-Res Qobuz audio stream URLs (FLAC 16-Bit/44.1kHz up to 24-Bit/192kHz).
+> Qobuz API is a lossless audio streaming microservice built for the Muzo App. It seamlessly bridges YouTube Music with Qobuz's studio-grade catalog, using strict heuristic matching to resolve tracks into authenticated Hi-Res FLAC streams (16-bit/44.1kHz up to 24-bit/192kHz) for audiophile-grade playback directly inside the Muzo App.
 
 Repository: [https://github.com/Anattana-Labs/qobuz-api](https://github.com/Anattana-Labs/qobuz-api)
 
 ---
+
+## 🎵 What is this?
+
+**`qobuz-api`** serves as the audio resolution and stream-extraction backbone for the **Muzo App**:
+
+1. **Seamless Muzo App Integration**: When a user queues or plays a track in the Muzo App via YouTube or YouTube Music, the app dispatches the video ID or URL to this microservice.
+2. **Qobuz Hi-Res Upgrade**: Instead of settling for standard compressed YouTube audio (Opus ~160kbps), this API queries Qobuz's lossless catalog, applies strict heuristic matching, and retrieves authenticated direct FLAC stream URLs.
+3. **Audiophile Playback**: Muzo App feeds the resolved Hi-Res FLAC stream directly into its playback pipeline, delivering pristine CD-quality and 24-bit studio sound.
 
 ## 📑 Documentation Index
 

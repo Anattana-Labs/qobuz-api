@@ -1,7 +1,7 @@
 {
   "name": "flac-server",
   "version": "1.0.0",
-  "description": "YouTube Music Video ID -> Qobuz Lossless Audio Stream Matcher (Node.js HTTP server)",
+  "description": "Qobuz API lossless audio streaming microservice used by the Muzo App to resolve YouTube Music tracks into studio-quality Hi-Res FLAC audio streams.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

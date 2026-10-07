@@ -17,7 +17,7 @@
 
 ```mermaid
 flowchart TD
-    Client(["HTTP Client / Muzo Bot"]) -->|GET /?id={videoId}| Server["server.js (HTTP Server)"]
+    Client(["HTTP Client / Muzo App"]) -->|GET /?id={videoId}| Server["server.js (HTTP Server)"]
     Server --> Route["src/routes/handler.js (handleRequest)"]
 
     subgraph Phase1 ["Phase 1: Input & Metadata Extraction"]
